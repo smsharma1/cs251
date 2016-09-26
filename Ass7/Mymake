@@ -1,0 +1,22 @@
+all:shubham
+shubham:
+	make -f Mymake octave
+	make -f Mymake plot
+	make -f Mymake fig
+	make -f Mymake latex
+octave:
+	octave ASS7_1
+plot:
+	gnuplot ASS7_2
+fig:
+	fig2eps dices
+latex:
+	pdflatex ASS7_4
+	bibtex ASS7_4
+	makeindex ASS7_4
+	pdflatex ASS7_4
+	rifle ASS7_4.pdf
+clean:
+	rm *dat *gp *inp* *png *eps* *bbl *blg *log
+heavy_clean:
+	rm *4.a* *4.i* *4.l* *4.t* *pdf

@@ -1,0 +1,15 @@
+x=[0:50]';
+y=normpdf(x,15,sqrt(10.5));
+s1=normrnd(15,sqrt(10.5),10,1);
+s2=normrnd(15,sqrt(10.5),100,1);
+s3=normrnd(15,sqrt(10.5),1000,1);
+s4=normrnd(15,sqrt(10.5),10000,1);
+s5=normrnd(15,sqrt(10.5),100000,1);
+s6=normrnd(15,sqrt(10.5),1000000,1);
+h1=hist(s1,x)';
+h2=hist(s2,x)';
+h3=hist(s3,x)';
+h4=hist(s4,x)';
+h5=hist(s5,x)';
+h6=hist(s6,x)';
+save "Output4_3.mat" y h1 h2 h3 h4 h5 h6 s1 s2 s3 s4 s5 s6; 

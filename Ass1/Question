@@ -1,0 +1,49 @@
+1. (10 marks) Write a bash script that inputs name as string and displays
+"Namaskar, <name>" where <name> stands for the name that has been input.  Hint:
+Use variables such as $name. Also, look at the special meaning of $1, etc.
+
+Sample input:
+script.sh Arnab
+
+Output:
+Namaskar, Arnab
+
+2. (15 marks) Given two csv files (comma-separated) having the same number of
+lines, write a bash script to create a file called "output.txt".  Each line of
+output.txt should contain the first, second and fourth fields of the first file
+and the second and third fields of the second file.  You can assume that the
+first file will contain at least four fields and the second file will contain
+at least three fields.
+
+Sample input:
+
+file1
+roll,name,dept,total
+001,AB,cse,78
+003,XYZ,maths,100
+
+file2
+roll,rank,grade
+001,23,C
+003,1,A*
+
+output.txt:
+roll,name,total,rank,grade
+001,AB,78,23,C
+003,XYZ,100,1,A*
+
+3. (25 marks) Write a bash script that will read a file of numbers and outputs
+the average of them.  You should only use bash functions and not specialised
+commands such as sed, awk, etc.
+
+Sample input:
+34
+25
+109
+2
+
+Output:
+42.5
+
+An output of 42.500, etc. is also correct.
+

@@ -1,0 +1,13 @@
+all:shubham
+shubham:
+	make -f Mymake file1
+	make -f Mymake file2
+	make -f Mymake file3
+file1:
+	bash file1.sh Shubham Sharma
+file2:
+	bash file2.sh file1.csv file2.csv
+file3:
+	bash file3.sh file3
+clean:
+	rm *~

@@ -1,0 +1,68 @@
+1. (10 marks) Write a bash script that uses grep to find if any student has
+failed (grade 'F') or if any student has got an A*. Assume that A* grades are
+input as '*'. The input file will have the format as shown in the examples. Be
+careful since the name may contain blanks and the character 'F'. You may assume
+that the name will contain only alphabets, and the roll, total and rank fields
+contain only numerals.
+
+Input 1:
+roll,name,total,rank,grade
+001,A B,78,23,C
+003,F YZ,100,1,*
+
+Output 1:
+Yes
+
+Input 2:
+roll,name,total,rank,grade
+001,A B,78,23,C
+003,F YZ,100,1,A
+
+Output 2:
+No
+
+2. (20 marks) Modify the above script to display the number of grades of each
+type. You may assume that the grades are A*, A, B, C, D, and F.
+
+Input:
+roll,name,total,rank,grade
+001,A B,78,23,C
+002,D S,77,24,C
+003,F YZ,100,1,*
+
+Output:
+*: 1
+A: 0
+B: 0
+C: 2
+D: 0
+F: 0
+
+3. (30 marks) Use sed on the input files. Only if there is any A* or F (you can
+use the first script to determine that), change the A* and A grades to "Good",
+B and C to "Average", D to "Poor", and F to "Fail". Change the file in-place,
+i.e., do not use sed to output lines that are redirected to either the standard
+output or other intermediate file.
+
+Input file1.csv:
+roll,name,total,rank,grade
+001,A B,78,23,C
+003,F YZ,100,1,*
+004,G H,12,112,F
+
+Output file1.csv:
+roll,name,total,rank,grade
+001,A B,78,23,Average
+003,F YZ,100,1,Good
+004,G H,12,112,Fail
+
+Input file2.csv:
+roll,name,total,rank,grade
+001,A B,78,23,C
+003,F YZ,100,1,A
+
+Output file2.csv:
+roll,name,total,rank,grade
+001,A B,78,23,C
+003,F YZ,100,1,A
+

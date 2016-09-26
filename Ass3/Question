@@ -1,0 +1,57 @@
+1. (20 marks) Write an awk script that will read a file of numbers and outputs
+the average of them.  The average must be printed as a real number with two
+decimal digits.
+
+Sample input:
+34
+25
+109
+2
+
+Output:
+42.50
+
+2. (15 marks) Write a script using any of the bash tools including grep, sed
+and awk, that given a file and a positive integer n, concatenates every n lines
+into a single line by separating them with tabs.
+
+Sample input: file1.csv 3
+file1.csv
+23,A
+49,B
+12,C
+25,B
+27,D
+28,E
+12,F
+13,A
+
+Sample output: file2.csv
+23,A    49,B    12,C
+25,B    27,D    28,E
+12,F    13,A    
+
+Note that the file may not contain exactly multiples of n lines and the last
+line of output may be dangling.
+
+3. (20 marks) Write a script using any of the bash tools including grep, sed
+and awk, that given a file with the lines inside it having a comma-separated
+format, writes the fileds of the line in a reverse direction. Note that the
+fields themselves remain the same.
+
+Sample input:
+23,A,49,B,2,C
+25,B,27,D,8,
+
+Sample output:
+C,2,B,49,A,23
+,8,D,27,B,25
+
+Note the absence of the trailing comma in the first line of the input but its
+presence in the second line.
+
+You may not assume a known number of fields in a file. However, you may assume
+a fixed number of them in each line.
+
+Scripts that do not depend on the assumption of a fixed number of fields per
+line will be awarded 5 bonus marks (over 20).

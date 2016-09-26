@@ -1,0 +1,41 @@
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+.Query{
+font-family: Courier New,Courier;
+}
+.students input, textarea {
+color: red;
+} 
+.faculty input, textarea {
+color: blue;
+} 
+.course input, textarea {
+color: chocolate;
+}
+.enroll input, textarea {
+color: magenta ;
+} 
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:800px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}

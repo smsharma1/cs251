@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="table.css">
+<link rel="stylesheet" type="text/css" href="query.css">
+</head>
+<body>
+
+<div id="header">
+<h1>Studyera</h1>
+</div>
+
+<div id="nav">
+
+<a href="main.html">Home</a><br>
+<a href="insert.html">Insert</a><br>
+<a href="query.html">Query</a>
+</div>
+<form action="print_info.php" method="post">
+<h2> Student Information Query</h2>
+<p class="Query">Display the complete information of Student registered</p>
+<fieldset class="students">
+Student ID: <input type="integer" name="ID" color="red"><br>
+<input type="submit" name="submit">
+</fieldset>
+</form>
+<form action="print_info1.php" method="post">
+<h2> Enrollment Information</h2>
+<p class="Query">Display the complete information of Students Enrolled in particular Course</p>
+<fieldset class="enroll">
+Course ID: <input type="integer" name="ID"><br>
+<input type="submit" name="submit">
+</fieldset>
+</form>
+<form action="print_info2.php" method="post">
+<h2> Course Information</h2>
+<p class="Query">Display the complete information of particular course</p>
+<fieldset class="course">
+Course ID: <input type="integer" name="ID"><br>
+<input type="submit" name="submit">
+</fieldset>
+</form>
+<form action="print_info3.php" method="post">
+<h2> Faculty Information</h2>
+<p class="Query">Display the complete information of particular faculty</p>
+<fieldset class="faculty">
+Faculty ID: <input type="integer" name="ID"><br>
+<input type="submit" name="submit">
+</fieldset>
+</form>
+</body>
+</html>

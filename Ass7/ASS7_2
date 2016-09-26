@@ -1,0 +1,16 @@
+set terminal png  enhanced size 540,450 font "arial,9" 
+set output 'Q_2hist.png'
+set boxwidth 0.8 relative
+set style fill   solid 1.00 border lt -1
+set style histogram rowstacked
+set style data histograms
+unset xtics
+set title "Histogram: sum of average of two throw"
+set xlabel "no. of repetition \n for biased and unbiased dices"
+set ylabel "Average of two outcomes of dice"
+set xrange [-2 : 24] noreverse nowriteback
+plot newhistogram "10", 'q2_input' using 1 title 'Val1', '' using 2 title 'Val2',\
+	 newhistogram "10^2", 'q2_input' using 3 title 'Val1', '' using 4,\
+	 newhistogram "10^3", 'q2_input' using 5, '' using 6,\
+	 newhistogram "10^4", 'q2_input' using 7, '' using 8
+

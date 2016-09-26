@@ -1,0 +1,34 @@
+1. (20 marks) Write an octave script that will compute the value of pi using
+the circle and square method discussed in class.  Use sample sizes of 10^1,
+10^2, 10^3, 10^4, 10^5, 10^6.  Write the output in a file using octave itself
+in the following format:
+
+Output:
+10    4.5000
+100    3.9900
+1000    3.4320
+10000    3.1032
+100000    3.1432
+1000000    3.1416
+
+2. (15 marks) Write an octave script that uses the above script to generate the
+estimates of pi and then plots them.  Also, plot the value of pi given natively
+by octave.  Ensure that the plots are marked meaningfully with title, axes,
+legend, etc.
+
+3. (25 marks) Write an octave script to first generate all 51 integers from 0
+to 50 into the vector x. For each such integer in x, compute y =
+Gaussian(15,$\sqrt{10.5}$).
+
+Now generate samples of sizes 10^1, 10^2, 10^3, 10^4, 10^5, 10^6 from the above
+distribution. Note that this results in 6 sets of vectors.  Call them as s1,
+s1, ..., s6, etc. For each of these vectors, compute the histograms that has 51
+bins, and whose bin centers are the points in x.  Call them h1, h1, ..., h6,
+etc.
+
+Output all y and h? vectors in a file.
+
+4. (10 marks) Write an octave script to read the file produced in Q3.  Plot the
+sampled histograms h? along with y against x values.  Ensure that the plots are
+marked meaningfully with title, axes, legend, etc.
+

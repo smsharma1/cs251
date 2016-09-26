@@ -1,0 +1,75 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
+\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{amsthm}
+\usepackage{imakeidx}
+\makeindex
+\title{Biased and Unbiased Die }
+\author{Shubham Sharma}
+\date{\today}
+\begin{document}
+\maketitle
+\tableofcontents
+\listoftables
+\listoffigures
+\newpage
+
+\section{Introduction}
+An unbiased dice means that there is equal probability of occurrence  of any of the face when the dice is rolled. That is when you roll an unbiased dice each face has equal chance of showing i.e 1/6th chance of showing up.Where if the dice has been tempered such as there are two faces with same number on it or anything like that , then the probability for each face doesn't remain equal, it changes accordingly\par In a unbiased or fair dice each of the 6 numbers (if the dice has 6 faces) have same probability of showing up i.e. 1/6 = 0.1667  probability for each of the 6 faces is the same. In this experiment we have taken two biased die such that in the first case the probability of occurrence of 5 or 6 on die1 is $0.05+1/6$ while the probability of occurrence of other faces is same. on the second dice the probability of occurrence of 5 or 6 increases to $0.1+1/6$ while the other faces has same probability.  
+\begin{figure*}[h]
+        \begin{center}
+                \includegraphics[scale=0.8]{dices.eps}
+        \end{center}
+        \caption{ Dices }
+        \label{fig:shapes}
+\end{figure*}
+\newpage
+\section{Analysis}
+\begin{table}[]
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+    \hline
+         Number&Probability on Unbiased&Probability on Baised1&Probability on Baised2  \\
+         \hline
+         1&$0.167$&$0.195$&$0.183$\\
+         \hline
+         2&$0.167$&$0.195$&$0.183$\\
+         \hline
+         3&$0.167$&$0.195$&$0.183$\\
+         \hline
+         4&$0.167$&$0.195$&$0.183$\\
+         \hline
+         5&$0.167$&$0.216$&$0.26$\\
+         \hline
+         6&$0.167$&$0.216$&$0.26$\\
+         \hline
+    \end{tabular}
+    \caption{Probability Distribution}
+    \label{tab:my_label}
+\end{table}
+\subsection{Unbiased Die}
+\begin{itemize}
+    \item The probability of occurrence of each element is same and is  equal to $1/6$.
+    \item The theoretical expected value of sum of numbers occurring on upper face of this die is $7$.
+    \end{itemize}
+\subsection{Biased Die1}
+\begin{itemize}
+    \item The probability of occurrence of 5 or 6 is $0.216$ while that of other elements is $0.195$
+    \item The theoretical expected value of sum of numbers occurring on upper face of this die is $7.6$.
+\end{itemize}
+\subsection{Biased Die2}
+\begin{itemize}
+    \item The probability of occurrence of 5 or 6 is $0.26$ while that of other elements is $0.183$
+    \item The theoretical expected value of sum of numbers occurring on upper face of this die is  $8.2$ 
+\end{itemize}
+\begin{figure*}[h]
+        \begin{center}
+                \includegraphics[scale=0.8]{Q_2hist.png}
+        \end{center}
+        \caption{gnu plot output}
+        \label{fig:shapes}
+\end{figure*}
+\end{document}

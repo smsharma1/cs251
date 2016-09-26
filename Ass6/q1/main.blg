@@ -1,0 +1,59 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Illegal, another \bibstyle command---line 52 of file main.aux
+ : \bibstyle
+ :          {alpha}
+I'm skipping whatever remains of this command
+Database file #1: example1.bib
+Warning--empty publisher in Mcgraw
+Warning--empty year in Mcgraw
+Warning--empty author and editor in master
+Warning--empty title in master
+Warning--empty publisher in master
+Warning--empty year in master
+Warning--empty publisher in cormen
+Warning--empty year in cormen
+You've used 6 entries,
+            1791 wiz_defined-function locations,
+            470 strings with 3846 characters,
+and the built_in function-call counts, 826 in all, are:
+= -- 55
+> -- 19
+< -- 1
++ -- 10
+- -- 4
+* -- 39
+:= -- 117
+add.period$ -- 13
+call.type$ -- 6
+change.case$ -- 2
+chr.to.int$ -- 0
+cite$ -- 14
+duplicate$ -- 57
+empty$ -- 113
+format.name$ -- 4
+if$ -- 187
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 7
+newline$ -- 28
+num.names$ -- 5
+pop$ -- 47
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 17
+stack$ -- 0
+substring$ -- 0
+swap$ -- 6
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 8
+while$ -- 4
+width$ -- 7
+write$ -- 48
+(There was 1 error message)

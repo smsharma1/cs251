@@ -1,0 +1,16 @@
+1. (0 marks) Learn the basics of html, css and php.
+
+2. (30 marks) Create a database of students, courses and faculty members in
+SQLite.  For every entity, you should have a table.  Think of the relevant
+attributes for each table.  Link the student table to courses.  In particular,
+ensure that the enrollment of a student in a course is captured.  If required,
+use another table.  Make sure the declarations about data types, primary keys
+and foreign keys are correctly made.  In the enrollment table, create
+attributes for total marks and grade.  Write SQL statements to compute the
+total and grade given the marks for assignments, quizzes, exams, etc.
+
+Insert data by reading from a file.
+
+Write several interesting query statements in SQL.  Output the results in a
+file.
+

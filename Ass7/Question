@@ -1,0 +1,38 @@
+1. (20 marks) Write an octave script to generate three sets of two numbers
+each. Each number is the random outcome of the roll of a dice.
+
+The first dice is a fair dice.  The second has a bias of 5% extra for the
+higher two numbers, i.e., 5 and 6 happen with probabilities (1/6 + 0.05) each
+while the rest are equally likely.  The third dice has a bias of 10% extra.
+
+For example, in one run, the outcome may be:
+2 4
+5 3
+6 5
+
+Now, generate the above set in sizes of 10^1, 10^2, 10^3, and 10^4 respectively.
+
+Store the averages for each throw and each dice over the set sizes in a file.
+
+2. (30 marks) Use the above output files to generate histogram plots in
+gnuplot.  The plot should have 4 groups of histograms, each corresponding to
+the size.  In each group, there are 3 histogram bars, corresponding to the
+dices.  Each bar plots the average of the two throws stacked on top of each
+other.  Thus, the entire histogram height shows the sum of the two throws of
+the dice.  Label the plot appropriately.
+
+3. (10 marks) Use xfig to generate figures of two dice.
+
+4. (15 marks) Use the above gnuplot and xfig outputs inside a Latex document
+that explains why you should get successively higher sums for the later dices.
+
+Include the expected values of the sums for the three dices.
+
+Include the figures at an appropriate scale.
+
+5. (25 marks) Write a makefile to incorporate all the above tasks.  In
+particular, it must include the targets for generating octave output, gnuplot
+output, xfig output (see the command fig2dev for a command-line option), and
+latex output with their dependencies duly resolved.  Also, include a target for
+cleaning that erases all the intermediate files, and a heavier cleaning that
+erases everything except the source files.

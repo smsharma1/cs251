@@ -1,0 +1,37 @@
+1. (0 marks) Learn make and gnuplot (at least the basics).
+
+2. (30 + 20 marks) Write two articles in latex, one any of the computer science
+topics, and the other on any of the general topics. You must use bibtex and
+makeindex. Also, generate a table of contents, list of figures and list of
+tables.  Also, ensure that the article has sufficient number of table(s),
+figure(s), equation(s), theorem(s), list(s), etc.
+
+The computer science topics are:
+
+(a) Suppose you have invented the technique of binary searching. Explain it.
+Also, compare it with linear searching. Discuss in detail the pros (faster
+querying time, etc.) and cons (pre-processing needed, etc.). Analyze taking
+into account the number of queries in addition to the size of the input.
+
+(b) Suppose you have invented the technique of quick sorting. Explain it. Also,
+compare it with selection sort. Moreover, as in part (a), do all the necessary
+and relevant analyses.
+
+(c) Suppose you have invented the technique of 2's complement binary
+arithmetic. Explain it. Also, compare it with 1's complement binary arithmetic.
+Moreover, as in part (a), do all the necessary and relevant analyses.
+
+The general topics are:
+
+(a) Suppose you are a fan of Mr. X in sports Y.  Explain why you think he is
+the "best" player. Invoke statistics.
+
+(b) Suppose you are making a list of things to do for a new student in IIT
+Kanpur. Write a document that lists all the compulsory and optional activities.
+
+(c) Suppose you love history. Choose a significant event in Indian history and
+describe it.
+
+Include the two topics as two separate folders with appropriate tex, bib and
+pdf files.
+

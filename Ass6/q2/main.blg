@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: main.aux
+The style file: unsrt.bst
+Database file #1: ex.bib
+Warning--empty journal in sambit
+Warning--empty journal in quora
+Warning--empty year in quora
+Warning--empty journal in siddhartha
+Warning--empty year in siddhartha
+Warning--empty journal in harsha
+You've used 5 entries,
+            1791 wiz_defined-function locations,
+            461 strings with 3740 characters,
+and the built_in function-call counts, 626 in all, are:
+= -- 40
+> -- 20
+< -- 0
++ -- 10
+- -- 5
+* -- 20
+:= -- 110
+add.period$ -- 11
+call.type$ -- 5
+change.case$ -- 4
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 37
+empty$ -- 75
+format.name$ -- 5
+if$ -- 129
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 4
+newline$ -- 24
+num.names$ -- 5
+pop$ -- 26
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 22
+stack$ -- 0
+substring$ -- 0
+swap$ -- 1
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 6
+while$ -- 5
+width$ -- 6
+write$ -- 39
+(There were 6 warnings)

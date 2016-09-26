@@ -1,0 +1,30 @@
+Ass1:
+	cd Ass1/
+	make -f Mymake
+Ass2:
+	cd Ass2/
+	make -f Mymake
+Ass3:
+	cd Ass3/
+	make -f Mymake
+Ass4:
+	cd Ass4/
+	make -f Mymake
+Ass5:
+	cd Ass5/
+	make -f Mymake
+Ass6:
+	cd Ass6/
+	make -f Mymake
+Ass71:
+	cd Ass7/
+	make -f Mymake latex
+Ass8:
+	cd Ass8/
+	make -f Mymake
+Ass9:
+	cd Ass9/
+	make -f Mymake
+Ass10:
+	cd Ass10/
+	make -f Mymake

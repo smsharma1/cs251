@@ -1,0 +1,17 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {2}Quick Sort}{4}
+\contentsline {subsection}{\numberline {2.1}Algorithm}{4}
+\contentsline {subsection}{\numberline {2.2}Partition Algorithm}{4}
+\contentsline {subsection}{\numberline {2.3}Pseudocode}{5}
+\contentsline {subsection}{\numberline {2.4}Analysis of Quicksort}{5}
+\contentsline {subsubsection}{\numberline {2.4.1}Time Complexity}{5}
+\contentsline {subsubsection}{\numberline {2.4.2}Auxiliary Space}{6}
+\contentsline {section}{\numberline {3}Selection Sort}{6}
+\contentsline {subsection}{\numberline {3.1}Algorithm}{6}
+\contentsline {subsection}{\numberline {3.2}Pseudocode}{7}
+\contentsline {subsection}{\numberline {3.3}Analysis of Selection Sort}{7}
+\contentsline {subsubsection}{\numberline {3.3.1}Time Complexity}{7}
+\contentsline {subsubsection}{\numberline {3.3.2}Auxiliary Space}{7}
+\contentsline {section}{\numberline {4}Comparison Between Quicksort and Selection Sort}{8}
+\contentsline {subsection}{\numberline {4.1}Time Complexity}{8}
+\contentsline {subsection}{\numberline {4.2}Auxiliary Space}{8}

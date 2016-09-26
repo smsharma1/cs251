@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{Wiki}
+Sorting algorithms.
+\newblock \url http://en.wikipedia.org/wiki/Quicksort.
+
+\bibitem{Mcgraw}
+Mcgraw Hill.
+\newblock {\em An Introduction to data structures with applications}.
+
+\bibitem{Knuth}
+D.~E. Knuth.
+\newblock {\em The Art of Computer Programming}.
+\newblock Pearson Education, 1998.
+
+\bibitem{Hoare}
+C.~A.~R. Hoare.
+\newblock Quicksort.
+\newblock {\em Computer Journal5(1)}, 1962.
+
+\bibitem{master}
+chapter Master Theorem.
+
+\bibitem{cormen}
+Cormen, editor.
+\newblock {\em Introduction to Algorithms}.
+
+\end{thebibliography}

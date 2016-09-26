@@ -1,0 +1,70 @@
+<html>
+<body>
+
+ <head>
+<link rel="stylesheet" type="text/css" href="table.css">
+<link rel="stylesheet" type="text/css" href="insert.css">
+</head>
+<div id="header">
+<h1>Studyera</h1>
+</div>
+
+<div id="nav">
+
+<a href="main.html">Home</a><br>
+<a href="insert.html">Insert</a><br>
+<a href="query.html">Query</a><br>
+</div>
+
+<form action="gather_info.php" method="post">
+<h2> Student Form</h2>
+<p><span class="error">all fields are required.</span></p>
+<fieldset class="students">
+ID: <input type="integer" name="ID"><br>
+Name: <input type="text" name="name"><br>
+Department: <input type="text" name="Dept"><br>
+Year: <input type="int" name="year"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit" name="submit" value="Submit form">
+</fieldset>
+</form>
+
+<form action="gather_info1.php" method="post">
+<h2> Faculty Form</h2>
+<p><span class="error">all fields are required.</span></p>
+<fieldset class="faculty">
+ID: <input type="integer" name="ID" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']);?>"><br>
+Name: <input type="text" name="name"><br>
+Department: <input type="text" name="Dept"><br>
+Research Interest: <input type="text" name="Research"><br>
+Courses: <input type="text" name="Courses"><br>
+E-mail: <input type="text" name="email"><br>
+<input type="submit" name="submit" value="Submit form">
+</fieldset>
+</form>
+
+<form action="gather_info2.php" method="post">
+<h2> Course Form</h2>
+<p><span class="error">all fields are required.</span></p>
+<fieldset class="courses">
+ID: <input type="integer" name="ID"><br>
+Name: <input type="text" name="name"><br>
+Faculty_ID: <input type="integer" name="faculty_ID"><br>
+<input type="submit" name="submit" value="Submit form" >
+</fieldset>
+</form>
+
+<form action="gather_info3.php" method="post">
+<h2> Enrollment Form</h2>
+<p><span class="error">all fields are required.</span></p>
+<fieldset class="enroll">
+Course ID: <input type="integer" name="Course_ID"><br>
+Course Name: <input type="text" name="name"><br>
+Student ID: <input type="integer" name="Student_ID"><br>
+Faculty ID: <input type="text" name="Faculty_ID"><br>
+<input type="submit" name="submit" value="Submit form">
+</fieldset>
+</form>
+</body>
+</html>
+

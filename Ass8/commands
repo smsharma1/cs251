@@ -1,0 +1,23 @@
+sqlite3 "test.db"
+
+create table students(
+ID int primary key not null,
+Name text not null,
+Age int not null);
+
+Insert into students values(1,"Shubham",20);
+Insert into students values(2,"Vibhor",21);
+Insert into students values(3,"kaushal",18);
+
+create table enroll(
+ID int primary key not null,
+Course_Name text not null,
+Student_Id int not null,
+Foreign key(Student_Id) references students(ID));
+
+Insert into enroll values(20,"CS220",1);
+Insert into enroll values(21,"CS251",2);
+Insert into enroll values(22,"CS210",3);
+
+select * from students;
+select * from enroll;

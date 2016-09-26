@@ -1,0 +1,33 @@
+1. (10 marks) Set up PHP with preferably Apache (or Lighthttpd) and SQLite (or
+MySQL) in the VM allocated to you.
+
+2. (60 marks) Create a website that conects to the database on courses created
+as part of Assignment 8.  Host it as the main webpage of your VM.  (You will
+need to host the pages at /var/www/ or some sub0directory of it.)
+
+The website should have at least 3 pages.  The pages should use basic HTML with
+external CSS stylesheet(s).
+
+The first is the main page that describes the capabilities of the website.  It
+should link to two pages, one each for insertion and querying.
+
+The insert page should have capabilities to insert data for students, faculty
+members, courses and enrollments. Take care of any cascading issues.  The input
+fields should be taken in the form of POST requests and should be handled by
+PHP.
+
+Similarly, develop a querying page with the query statements used in Assignment
+8.  It should again use POST requests, etc.
+
+The result pages for insertion and querying should use PHP.
+
+3. (30 marks) Use CSS to stylize the HTML pages and the result pages for the
+website.  In particular, use the following capabilities: (1) Use contrasting
+styles for odd and even rows of a table. (2) The headings should be differently
+styled. (3) Show the exact query (or insertion) run. The query string should
+use typewriter-type fonts (e.g., Courier). (4) The input parameters in the
+query string such as course number, student roll number, etc. should use
+differently colored fonts.
+
+The CSS files should be external.
+

@@ -1,0 +1,81 @@
+pdf=zeros(6,3);
+
+pdf(6,2)=1/6+0.05;
+pdf(5,2)=pdf(6,2)*2;
+k=(1-pdf(5,2))/4;
+pdf(4,2)=pdf(5,2)+k;
+pdf(3,2)=pdf(4,2)+k;
+pdf(2,2)=pdf(3,2)+k;
+pdf(1,2)=pdf(2,2)+k;
+xa=[];
+xb=[];
+xc=[];
+xd=[];
+
+y1=zeros(3,2);
+y2=zeros(3,2);
+y3=zeros(3,2);
+y4=zeros(3,2);
+
+pdf(6,3)=1/6+0.1;
+pdf(5,3)=pdf(6,3)*2;
+k=(1-pdf(5,3))/4;
+pdf(4,3)=pdf(5,3)+k;
+pdf(3,3)=pdf(4,3)+k;
+pdf(2,3)=pdf(3,3)+k;
+pdf(1,3)=pdf(2,3)+k;
+
+k=1/6;
+
+pdf(6,1)=k;
+pdf(5,1)=2*k;
+pdf(4,1)=3*k;
+pdf(3,1)=4*k;
+pdf(2,1)=5*k;
+pdf(1,1)=6*k;
+k=1;
+for i=1:4
+    k=k*10;
+    for j=1:k
+    result=[];
+       for c=1:3
+         x=[rand() rand()];
+            for d=1:2
+                if x(d)>=0 && x(d) < pdf(6,c)
+                    x(d) = 6;
+                elseif x(d)>=pdf(6,c) && x(d) < pdf(5,c)
+                    x(d) = 5;
+                elseif x(d)>=pdf(5,c) && x(d) < pdf(4,c)
+                    x(d) = 4;
+                elseif x(d)>=pdf(4,c) && x(d) < pdf(3,c)
+                    x(d) = 3;
+                elseif x(d)>=pdf(3,c) && x(d) < pdf(2,c)
+                    x(d) = 2;
+                else
+                    x(d) = 1;
+                end
+            end
+            result = [result;x];
+       end
+    if(i==1)
+     y1=y1.+result;
+     xa=[mean(result,2)';xa];
+    elseif(i==2)
+      y2=y2.+result;
+     xb=[mean(result,2)';xb];
+    elseif(i==3)
+     y3=y3.+result;
+     xc=[mean(result,2)';xc];
+    else
+     y4=y4.+result;
+     xd=[mean(result,2)';xd];
+    end
+end
+end
+y1=y1./10;
+y2=y2./100;
+y3=y3./1000;
+y4=y4./10000;
+y=[y1 y2 y3 y4];
+save averages.dat xa xb xc xd; 
+save q2_input y;
